@@ -36,7 +36,7 @@ namespace NICFederal.RIDB.Client
         
         // RIDB BUG: OrgFacilityID is documented as an integer, but has string data returned
         /// <summary>
-        /// The optional oganization specific id for the facility.
+        /// The optional organization specific id for the facility.
         /// </summary>
         [DataMember]
         public string OrgFacilityID { get; set; }

@@ -23,7 +23,7 @@ limitations under the License.
 namespace NICFederal.RIDB.Client
 {
     /// <summary>
-    /// Recreational activities.
+    /// Data class representing ecreational activities.
     /// </summary>
     [DataContract(Name="RecreationalActivity")]
     public class RIDBActivity

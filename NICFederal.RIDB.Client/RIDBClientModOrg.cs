@@ -23,7 +23,7 @@ namespace NICFederal.RIDB.Client
 {
     /// <summary>
     /// The client module used to access information about RIDB organizations.  This module also
-    /// allows you to retrieve the recreation areas and facilities associated with an organziation.
+    /// allows you to retrieve the recreation areas and facilities associated with an organization.
     /// </summary>
     public class RIDBClientModOrg : RIDBClientModule
     {
@@ -73,7 +73,7 @@ namespace NICFederal.RIDB.Client
         }
 
         /// <summary>
-        /// Retrieve all rec areas associated with a specific organization.
+        /// Retrieve all recreation areas associated with a specific organization.
         /// </summary>
         /// <param name="orgId">The id for the organization.</param>
         /// <returns>An array containing all of the recreation areas associated with an organization.</returns>

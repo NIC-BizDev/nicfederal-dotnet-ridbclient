@@ -75,7 +75,7 @@ namespace NICFederal.RIDB.Client
         /// Retrieve all facilities associated with a specific recreation area.
         /// </summary>
         /// <param name="recAreaId">The id for the recreation area.</param>
-        /// <returns>An array containing all of the facilities associated with an organization.</returns>
+        /// <returns>An array containing all of the facilities associated with a recreation area.</returns>
         public RIDBFacility[] GetAllFacilities(int recAreaId)
         {
             GetPageDelegate<RIDBFacility> del = delegate(RIDBSearchParameters searchParams)

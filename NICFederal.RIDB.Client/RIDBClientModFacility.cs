@@ -23,7 +23,7 @@ namespace NICFederal.RIDB.Client
 {
     /// <summary>
     /// The client module used to access information about RIDB facilities.  To get the facilities associated with a
-    /// recreation areas and facilities, use the recreation area module and call one of the facility search or access methods.
+    /// recreation area, use the recreation area module and call one of the facility search or access methods.
     /// </summary>
     public class RIDBClientModFacility : RIDBClientModule
     {
@@ -116,7 +116,7 @@ namespace NICFederal.RIDB.Client
         /// Query, Limit, and Offset.  The Query parameter is applied to the city, state, postal code, country code,
         /// and street address fields.
         /// </summary>
-        /// <param name="facilityId">The id for the campsite.</param>
+        /// <param name="facilityId">The id for the facility.</param>
         /// <param name="searchParams">Search parameters to apply to the search.</param>
         /// <returns>A page of RIDB search results.</returns>
         public RIDBList<RIDBFacilityAddress> SearchAddresses(int facilityId, RIDBSearchParameters searchParams)

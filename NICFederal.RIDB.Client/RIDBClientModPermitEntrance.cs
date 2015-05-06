@@ -35,7 +35,7 @@ namespace NICFederal.RIDB.Client
         public RIDBClientModPermitEntrance(RIDBClient client) : base(client) { ; }
 
         /// <summary>
-        /// Retrieve all permit entrances in RIDB.  Warning: this retrieves many recordss.  This method should be only used
+        /// Retrieve all permit entrances in RIDB.  Warning: this retrieves many records.  This method should be only used
         /// when all permit entrances need handled.
         /// </summary>
         /// <returns>An array containing all of the permit entrances in RIDB.</returns>

@@ -32,7 +32,7 @@ namespace NICFederal.RIDB.Client
     /// </summary>
     /// <typeparam name="T">The type of RIDB object being returned from the search.</typeparam>
     /// <param name="searchParams">Search parameters that should be used in conducting the search.</param>
-    /// <returns>A single page of RIDB searh results.</returns>
+    /// <returns>A single page of RIDB search results.</returns>
     public delegate RIDBList<T> GetPageDelegate<T>(RIDBSearchParameters searchParams);
 
     /// <summary>
@@ -66,7 +66,7 @@ namespace NICFederal.RIDB.Client
         /// </summary>
         public RIDBClientModRecArea RecArea { get; private set; }
         /// <summary>
-        /// The client module used to access RIDB information about organizations.
+        /// The client module used to access RIDB information about facilities.
         /// </summary>
         public RIDBClientModFacility Facility { get; private set; }
         /// <summary>
@@ -94,7 +94,7 @@ namespace NICFederal.RIDB.Client
         /// </summary>
         public RIDBClientModMedia Media { get; private set; }
         /// <summary>
-        /// The client module used to access RIDB information about reacreation links.
+        /// The client module used to access RIDB information about recreation links.
         /// </summary>
         public RIDBClientModLink Link { get; private set; }
 

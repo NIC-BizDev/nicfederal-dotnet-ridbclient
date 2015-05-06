@@ -53,7 +53,7 @@ namespace NICFederal.RIDB.Client
         public string OrgURLAddress { get; set; }
         
         /// <summary>
-        /// The text that should be used for links to the organization's website
+        /// The text that should be used for links to the organization's website.
         /// </summary>
         [DataMember]
         public string OrgURLText { get; set; }

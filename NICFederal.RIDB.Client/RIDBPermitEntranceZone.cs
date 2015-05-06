@@ -36,7 +36,7 @@ namespace NICFederal.RIDB.Client
         public int PermitEntranceZoneID { get; set; }
         
         /// <summary>
-        /// The name of the permit zone
+        /// The name of the permit zone.
         /// </summary>
         [DataMember]
         public string Zone { get; set; }
