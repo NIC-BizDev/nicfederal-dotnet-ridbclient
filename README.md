@@ -4,7 +4,7 @@ The NIC Federal .Net RIDB Client project provides an easy way for RIDB data to b
 The client library wraps up the full capabilities of the RIDB JSON API into a simple to use client gateway that returns .Net
 objects.
 
-## Code Example
+## Code Examples
 
 To use the RIDB client library, you must first instantiate the a `RIDBClient` object.  You have two choices regarding how to do this.  The first is
 to use the default constructor in which case the RIDB settings will be pulled from your application `AppSettings` configuration.
@@ -60,7 +60,7 @@ for use as discussed above.
 
 The API for the current release can be downloaded as a CHM file from the current release using the following link.
 
-https://github.com/NIC-BizDev/nicfederal-dotnet-ridbclient/releases/download/alpha.1/NICFederal.RIDB.Client.Documentation.chm
+[Alpha 1 Release API Documentation CHM File](https://github.com/NIC-BizDev/nicfederal-dotnet-ridbclient/releases/download/alpha.1/NICFederal.RIDB.Client.Documentation.chm)
 
 ## Build and Installation
 
