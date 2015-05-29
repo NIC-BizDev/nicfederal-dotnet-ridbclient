@@ -20,7 +20,7 @@ to use the default constructor in which case the RIDB settings will be pulled fr
 
 	RIDBClient ridb = new RIDBClient();
 
-### Paramerized Constructor
+### Paramaterized Constructor
 
 	RIDBClient ridb = new RIDBClient("https://ridb.recreation.gov/api/v1", "555AAQWSDDA348BF42E20F8988280535");
 
