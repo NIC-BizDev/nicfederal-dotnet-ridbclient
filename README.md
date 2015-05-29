@@ -58,20 +58,23 @@ for use as discussed above.
 
 ## API Reference
 
-TODO
+The API for the current release can be downloaded as a CHM file from the current release using the following link.
+
+https://github.com/NIC-BizDev/nicfederal-dotnet-ridbclient/releases/download/alpha.1/NICFederal.RIDB.Client.Documentation.chm
 
 ## Build and Installation
 
-TODO
+The RIDB Client API is a Visual Studio 2013 solution.  Simply use Visual Studio to build the project to generate the DLL and then reference
+this from your project.  When the solution builds it will also build the documentation project, creating the CHM help file.
 
 ## Tests
 
 A test suite is provided in the solution using the integrated Visual Studio testing framework.  Use Visual Studio's test explorer
-to see which tests are available or to run all tests.
+to see which tests are available and/or to run all tests.
 
 ## Contributors
 
-This framework was originally created by the NIC team at the myAmerica Developer Summit in Washington, DC.  In the weeks that followed,
+This framework was originally created by the NIC Federal team at the myAmerica Developer Summit in Washington, DC.  In the weeks that followed,
 what was started at the hackathon was finished by the NIC Federal team.  It is the hope of NIC Federal that others will find this
 useful and will contribute fixes, improvements, and features.
 
@@ -86,7 +89,7 @@ following license rights apply.
 > you may not use this file except in compliance with the License.
 > You may obtain a copy of the License at
 > 
->    (http://www.apache.org/licenses/LICENSE-2.0)
+>    http://www.apache.org/licenses/LICENSE-2.0
 > 
 > Unless required by applicable law or agreed to in writing, software
 > distributed under the License is distributed on an "AS IS" BASIS,
