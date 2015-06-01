@@ -7,7 +7,8 @@ objects.
 ## Code Examples
 
 To use the RIDB client library, you must first instantiate the a `RIDBClient` object.  You have two choices regarding how to do this.  The first is
-to use the default constructor in which case the RIDB settings will be pulled from your application `AppSettings` configuration.
+to use the default constructor in which case the RIDB settings will be pulled from your application `AppSettings` configuration.  The second option is
+to instantiate using the parameterized constructor which requires you to pass in the essential RIDB configuration.
 
 ### Default Constructor
 
@@ -20,7 +21,7 @@ to use the default constructor in which case the RIDB settings will be pulled fr
 
 	RIDBClient ridb = new RIDBClient();
 
-### Paramaterized Constructor
+### Parameterized Constructor
 
 	RIDBClient ridb = new RIDBClient("https://ridb.recreation.gov/api/v1", "555AAQWSDDA348BF42E20F8988280535");
 
@@ -40,7 +41,7 @@ Once the `RIDBClient` object is constructed, RIDB data is accessed by calling mo
 *	RecArea
 *	Tour
 
-To use a module, you reference the property of the client object corresponsing to the entity for which you wish to retrieve data from RIDB.  Here are
+To use a module, you reference the property of the client object corresponding to the entity for which you wish to retrieve data from RIDB.  Here are
 examples of several popular modules being used to access RIDB data.  These examples assume that the client object has already been instantiated
 for use as discussed above.
 
